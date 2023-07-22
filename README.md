@@ -6,10 +6,10 @@ In this notebook we will attempt to predict whether the individuals on dataset w
 ### Data 
 The data was obtained from Kaggle which I forgot to copy the link, but you can download and see it as `anxiety and depression.csv`
 ### Methodology
-Data preprocessing: make sure the data has no duplicate and missing value
-Exploratory data: understand more about the data with visualization
-Feature engineering and selection: using pipeline to handle missing value, outlier, and encoding. For the feature selection we use phik matrix, recursive feature elimination, and mutual info classification to compare and combine.
-Modeling: comparing logistic regression, SVM, decision tree, random forest, KNN, Naive Baiyes and Adaboost model to find the best model
+- Data preprocessing: make sure the data has no duplicate and missing value
+- Exploratory data: understand more about the data with visualization
+- Feature engineering and selection: using pipeline to handle missing value, outlier, and encoding. For the feature selection we use phik matrix, recursive feature elimination, and mutual info classification to compare and combine.
+- Modeling: comparing logistic regression, SVM, decision tree, random forest, KNN, Naive Baiyes and Adaboost model to find the best model
 ### Result and Evaluation
 | Model | Result |
 | --- | --- |
