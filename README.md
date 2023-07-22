@@ -30,4 +30,5 @@ Unfortunately, hyperparameter tuning did not result in any improvement in the mo
 Future work can explore different features that may provide more predictive power, and also collect more real data on suicidal individuals as the SMOTENC technique may not be sufficient to address the class imbalance issue. Additionally, alternative models can also be explored to improve the classification performance.
 ### Directory Structure and Brief Description of Files
 `h8dsft_P1M2_Andrian_Tanjung.ipynb` is a Jupyter notebook that contains the complete project code, including data pre-processing, feature engineering with model, and evaluation.
+### Model Deployment
 Model deployment: https://huggingface.co/spaces/andreetanjung/Milestone2
