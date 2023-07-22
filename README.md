@@ -23,6 +23,8 @@ Modeling: comparing logistic regression, SVM, decision tree, random forest, KNN,
 
 Notably, all models exhibited overfitting as the training scores were significantly higher than the corresponding test scores
 
+![image](https://github.com/andreetanjung/Machine-Learning-Model-Predicting-Suicidal/assets/123824152/ec22c79a-8340-4f25-a19f-88d541d90ccc)
+
 Unfortunately, hyperparameter tuning did not result in any improvement in the model performance. Comparing the results before and after tuning, the models in fact has better precision and f1 score beforehand, and both are still overfit. Based on the model selection, while the models have good accuracy in classifying individuals in class 0, they are not effective in identifying individuals in class 1, which is our main objective in this dataset. Therefore, we cannot recommend deploying the model in its current state.
 ### Future References
 Future work can explore different features that may provide more predictive power, and also collect more real data on suicidal individuals as the SMOTENC technique may not be sufficient to address the class imbalance issue. Additionally, alternative models can also be explored to improve the classification performance.
